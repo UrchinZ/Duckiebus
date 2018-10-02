@@ -1,4 +1,5 @@
-# Algorithmic Robotics #
+#Duckiebus
+#- repo originally from Algorithmic Robotics #
 
 Common code for class. Currently many of the packages are from the duckietown/Software github repository or built off of said packages.
 

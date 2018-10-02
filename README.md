@@ -41,3 +41,5 @@ Common code for class. Currently many of the packages are from the duckietown/So
 ### Environment ###
 
 * Raspberry Pi 3, Ubuntu Mate 14.04, Python 2.7.12, OpenCV 2.4.9, ROS Kinetic
+
+Team 22: Connor McGowan, Judy Zhang

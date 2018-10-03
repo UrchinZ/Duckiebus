@@ -2,9 +2,12 @@
 #- repo originally from Algorithmic Robotics #
 
 terminal command to push local workspace to the repository:
-git commit .
-git checkout devel/ build/
+git add src/ README.md 
 git commit -m "commit message
+
+git will say the following is untracked. Ignore.
+build/
+devel/
 
 Common code for class. Currently many of the packages are from the duckietown/Software github repository or built off of said packages.
 

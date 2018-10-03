@@ -1,8 +1,0 @@
-prefix=/home/urchinz/Documents/robotics1/Duckiebus/devel
-
-Name: jtest
-Description: Description of jtest
-Version: 0.0.0
-Cflags: 
-Libs: -L/home/urchinz/Documents/robotics1/Duckiebus/devel/lib 
-Requires: 

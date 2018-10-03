@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 
 # Author: PCH 2017
-
+#change made UrchinZ 2018
 """
 Description: Publish car velocity commands based on keyboard input.
    '-'/'+' to reduce/increase the forward velocity of the car (when moving)
@@ -14,7 +14,10 @@ Description: Publish car velocity commands based on keyboard input.
 """
 
 # TODO: include rospy
+import rospy
 # TODO: include any msgs you use
+from duckietown_msgs.msg import Twist2DStamped
+
 import sys, termios
 
 class KeyboardControl:

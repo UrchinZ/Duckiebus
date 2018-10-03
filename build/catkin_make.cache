@@ -1,0 +1,2 @@
+jtest
+-DCATKIN_DEVEL_PREFIX=/home/urchinz/Documents/robotics1/Duckiebus/devel -DCMAKE_INSTALL_PREFIX=/home/urchinz/Documents/robotics1/Duckiebus/install -G Unix Makefiles

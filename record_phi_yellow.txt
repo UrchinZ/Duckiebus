@@ -1,0 +1,52 @@
+header: 
+  seq: 16
+  stamp: 
+    secs: 1541963401
+    nsecs: 986313104
+  frame_id: ''
+d: -0.00999999977648
+sigma_d: 0.0
+phi: 0.34999999404
+sigma_phi: 0.0
+status: 0
+in_lane: True
+---
+header: 
+  seq: 17
+  stamp: 
+    secs: 1541963402
+    nsecs: 405241966
+  frame_id: ''
+d: 0.00999999977648
+sigma_d: 0.0
+phi: 0.25
+sigma_phi: 0.0
+status: 0
+in_lane: True
+---
+header: 
+  seq: 18
+  stamp: 
+    secs: 1541963402
+    nsecs: 571686983
+  frame_id: ''
+d: -0.00999999977648
+sigma_d: 0.0
+phi: 0.34999999404
+sigma_phi: 0.0
+status: 0
+in_lane: True
+---
+header: 
+  seq: 19
+  stamp: 
+    secs: 1541963402
+    nsecs: 924252033
+  frame_id: ''
+d: -0.0299999993294
+sigma_d: 0.0
+phi: 0.34999999404
+sigma_phi: 0.0
+status: 0
+in_lane: True
+---

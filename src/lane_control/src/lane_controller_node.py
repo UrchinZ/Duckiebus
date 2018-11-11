@@ -14,7 +14,7 @@ class lane_controller(object):
 
         #track previous d error
         self.prev_de = 0
-        self.filter_tune = 0.5
+        self.filter_tune = 0.75
         # Setup parameters
         self.setGains()
 

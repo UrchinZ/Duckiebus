@@ -6,7 +6,7 @@ Created on Wed Nov  7 10:11:45 2018
 """
 import matplotlib.pyplot as plt
 
-filename = "record.txt"
+filename = "record_phi.txt"
 mode = "r"
 record  = open(filename, mode) 
 record_lines = record.read().splitlines()

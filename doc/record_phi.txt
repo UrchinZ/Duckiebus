@@ -1,0 +1,221 @@
+header: 
+  seq: 72
+  stamp: 
+    secs: 1541962434
+    nsecs: 338500976
+  frame_id: ''
+d: 0.189999997616
+sigma_d: 0.0
+phi: -1.0
+sigma_phi: 0.0
+status: 0
+in_lane: True
+---
+header: 
+  seq: 73
+  stamp: 
+    secs: 1541962434
+    nsecs: 496134996
+  frame_id: ''
+d: 0.230000004172
+sigma_d: 0.0
+phi: -0.75
+sigma_phi: 0.0
+status: 0
+in_lane: True
+---
+header: 
+  seq: 74
+  stamp: 
+    secs: 1541962434
+    nsecs: 694176912
+  frame_id: ''
+d: 0.170000001788
+sigma_d: 0.0
+phi: -0.899999976158
+sigma_phi: 0.0
+status: 0
+in_lane: True
+---
+header: 
+  seq: 75
+  stamp: 
+    secs: 1541962434
+    nsecs: 808176040
+  frame_id: ''
+d: 0.170000001788
+sigma_d: 0.0
+phi: -0.899999976158
+sigma_phi: 0.0
+status: 0
+in_lane: True
+---
+header: 
+  seq: 76
+  stamp: 
+    secs: 1541962434
+    nsecs: 994524955
+  frame_id: ''
+d: -0.0299999993294
+sigma_d: 0.0
+phi: -0.25
+sigma_phi: 0.0
+status: 0
+in_lane: True
+---
+header: 
+  seq: 77
+  stamp: 
+    secs: 1541962435
+    nsecs: 192481994
+  frame_id: ''
+d: 0.25
+sigma_d: 0.0
+phi: -1.0
+sigma_phi: 0.0
+status: 0
+in_lane: True
+---
+header: 
+  seq: 78
+  stamp: 
+    secs: 1541962435
+    nsecs: 327708005
+  frame_id: ''
+d: 0.15000000596
+sigma_d: 0.0
+phi: -0.649999976158
+sigma_phi: 0.0
+status: 0
+in_lane: True
+---
+header: 
+  seq: 79
+  stamp: 
+    secs: 1541962435
+    nsecs: 429991960
+  frame_id: ''
+d: 0.209999993443
+sigma_d: 0.0
+phi: -0.850000023842
+sigma_phi: 0.0
+status: 0
+in_lane: True
+---
+header: 
+  seq: 80
+  stamp: 
+    secs: 1541962435
+    nsecs: 529122114
+  frame_id: ''
+d: 0.209999993443
+sigma_d: 0.0
+phi: -0.800000011921
+sigma_phi: 0.0
+status: 0
+in_lane: True
+---
+header: 
+  seq: 81
+  stamp: 
+    secs: 1541962435
+    nsecs: 730463027
+  frame_id: ''
+d: 0.15000000596
+sigma_d: 0.0
+phi: -0.899999976158
+sigma_phi: 0.0
+status: 0
+in_lane: True
+---
+header: 
+  seq: 82
+  stamp: 
+    secs: 1541962435
+    nsecs: 928217887
+  frame_id: ''
+d: 0.15000000596
+sigma_d: 0.0
+phi: -0.800000011921
+sigma_phi: 0.0
+status: 0
+in_lane: True
+---
+header: 
+  seq: 83
+  stamp: 
+    secs: 1541962436
+    nsecs: 133641004
+  frame_id: ''
+d: 0.170000001788
+sigma_d: 0.0
+phi: -0.899999976158
+sigma_phi: 0.0
+status: 0
+in_lane: True
+---
+header: 
+  seq: 84
+  stamp: 
+    secs: 1541962436
+    nsecs: 300034999
+  frame_id: ''
+d: 0.15000000596
+sigma_d: 0.0
+phi: -0.75
+sigma_phi: 0.0
+status: 0
+in_lane: True
+---
+header: 
+  seq: 85
+  stamp: 
+    secs: 1541962436
+    nsecs: 435972929
+  frame_id: ''
+d: 0.170000001788
+sigma_d: 0.0
+phi: -1.04999995232
+sigma_phi: 0.0
+status: 0
+in_lane: True
+---
+header: 
+  seq: 86
+  stamp: 
+    secs: 1541962436
+    nsecs: 636353969
+  frame_id: ''
+d: 0.15000000596
+sigma_d: 0.0
+phi: -0.899999976158
+sigma_phi: 0.0
+status: 0
+in_lane: True
+---
+header: 
+  seq: 87
+  stamp: 
+    secs: 1541962436
+    nsecs: 837117910
+  frame_id: ''
+d: 0.15000000596
+sigma_d: 0.0
+phi: -0.899999976158
+sigma_phi: 0.0
+status: 0
+in_lane: True
+---
+header: 
+  seq: 88
+  stamp: 
+    secs: 1541962437
+    nsecs:  71654081
+  frame_id: ''
+d: 0.15000000596
+sigma_d: 0.0
+phi: -0.800000011921
+sigma_phi: 0.0
+status: 0
+in_lane: True
+---

@@ -12,6 +12,9 @@ class lane_controller(object):
 
         self.pub_counter = 0
 
+        #track previous d error
+        self.prev_de = 0
+        self.filter_tune = 0.5
         # Setup parameters
         self.setGains()
 
@@ -38,9 +41,9 @@ class lane_controller(object):
         v_bar = 0.31 # nominal speed, 0.5m/s
         k_theta = -1.6
         k_d = - (k_theta ** 2) / ( 4.0 * v_bar)
-        theta_thres = math.pi / 6
+        theta_thres = math.pi / 12
         d_thres = math.fabs(k_theta / k_d) * theta_thres
-        d_offset = 0.0
+        d_offset = -0.08
 
         self.v_bar = self.setupParameter("~v_bar",v_bar) # Linear velocity
         self.k_d = self.setupParameter("~k_d",k_theta) # P gain for theta
@@ -92,6 +95,14 @@ class lane_controller(object):
     def cbPose(self,lane_pose_msg):
         self.lane_reading = lane_pose_msg
         cross_track_err = lane_pose_msg.d - self.d_offset 
+        #tuning
+        cross_track_err = self.filter_tune*(cross_track_err+self.d_offset)+(1-self.filter_tune)*self.prev_de
+        #update
+        self.prev_de = cross_track_err
+        #true cross_track_error
+        cross_track_err = cross_track_err - self.d_offset
+
+
         heading_err = lane_pose_msg.phi
 
         car_control_msg = Twist2DStamped()

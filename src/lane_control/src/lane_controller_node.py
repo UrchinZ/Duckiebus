@@ -41,9 +41,9 @@ class lane_controller(object):
         v_bar = 0.31 # nominal speed, 0.5m/s
         k_theta = -1.6
         k_d = - (k_theta ** 2) / ( 4.0 * v_bar)
-        theta_thres = math.pi / 12
+        theta_thres = math.pi / 6
         d_thres = math.fabs(k_theta / k_d) * theta_thres
-        d_offset = -0.08
+        d_offset = -0.05
 
         self.v_bar = self.setupParameter("~v_bar",v_bar) # Linear velocity
         self.k_d = self.setupParameter("~k_d",k_theta) # P gain for theta

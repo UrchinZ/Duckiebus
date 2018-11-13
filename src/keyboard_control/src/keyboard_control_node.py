@@ -1,5 +1,4 @@
 #!/usr/bin/env python
-
 # Author: PCH 2017
 
 """
@@ -13,23 +12,32 @@ Description: Publish car velocity commands based on keyboard input.
     Ctrl-C to quit
 """
 
-# TODO: include rospy
-# TODO: include any msgs you use
+
+import rospy
+from duckietown_msgs.msg import WheelSpeedsStamped, Twist2DStamped
+from duckietown_msgs.srv import SetParamRequest, SetParamResponse, SetParam
+from std_srvs.srv import EmptyRequest, EmptyResponse, Empty
+import rospkg
+import yaml
+import time
+import os.path
 import sys, termios
 
 class KeyboardControl:
     def __init__(self):
-        self.node_name = "TODO"
+        self.node_name = rospy.get_name()
+        rospy.loginfo("[%s] Initializing." % self.node_name)
 
         # Speed settings
-        self.lin_vel = 0.38
+        self.lin_vel = 0.2
         self.ang_vel = 1.0
         self.print_vel()
         # Current movement
         self.move = 0
         self.turn = 0
 
-        # TODO: ROS setup
+        # Publication
+        self.pub_car_cmd = rospy.Publisher("~car_vel_cmd", Twist2DStamped, queue_size=1)
 
         # Disable input echoing and line buffering
         self.attr = termios.tcgetattr(sys.stdin)
@@ -78,18 +86,24 @@ class KeyboardControl:
         omega = self.turn * self.ang_vel
 
         # TODO: Publish the velocity command
+        self.msg_cmd = Twist2DStamped()
+        self.msg_cmd.header.stamp = rospy.get_rostime() 
+        self.msg_cmd.v = v
+        self.msg_cmd.omega = omega
+        self.pub_car_cmd.publish(self.msg_cmd)
 
     def print_vel(self):
         print "[%s] Speed settings:\t%s\t%s" % (self.node_name, self.lin_vel, self.ang_vel)
 
 if __name__ == '__main__':
     # TODO: ROS node init
+    rospy.init_node('keyboard_control_node', anonymous=False)
 
     # Store original terminal settings
     orig_attr = termios.tcgetattr(sys.stdin)
     try:
         node = KeyboardControl()
-        while (True): # TODO: should only loop if the ROS node is still running
+        while (not rospy.is_shutdown()): # TODO: should only loop if the ROS node is still running
             ch = sys.stdin.read(1)
             if (ch != ''):
                 node.process_key(ord(ch))

@@ -1,4 +1,17 @@
-# Algorithmic Robotics #
+#Duckiebus
+#- repo originally from Algorithmic Robotics #
+
+ALWAYS git pull first!
+
+terminal command to push local workspace to the repository:
+git add src/ README.md 
+git commit -m "commit message
+
+git will say the following is untracked. Ignore.
+build/
+devel/
+
+then: git push
 
 Common code for class. Currently many of the packages are from the duckietown/Software github repository or built off of said packages.
 
@@ -41,3 +54,5 @@ Common code for class. Currently many of the packages are from the duckietown/So
 ### Environment ###
 
 * Raspberry Pi 3, Ubuntu Mate 14.04, Python 2.7.12, OpenCV 2.4.9, ROS Kinetic
+
+Team 22: Connor McGowan, Judy Zhang

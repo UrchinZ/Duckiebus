@@ -15,6 +15,11 @@ then: git push
 
 Common code for class. Currently many of the packages are from the duckietown/Software github repository or built off of said packages.
 
+To view image_compressed, run rqt_image_view
+to view image with markers, run
+ rosparam set /pi/line_detector_node/verbose true
+To view relationship between nodes: run rqt_graph
+
 ### Contents ###
 * ar_tags/
     * src/**tag_detector_node.py** - publishes AR tag detections (IDs, relative positions)

@@ -1,0 +1,2379 @@
+header: 
+  seq: 1
+  stamp: 
+    secs: 1541964602
+    nsecs: 829428911
+  frame_id: ''
+d: 0.230000004172
+sigma_d: 0.0
+phi: -0.75
+sigma_phi: 0.0
+status: 0
+in_lane: True
+---
+header: 
+  seq: 2
+  stamp: 
+    secs: 1541964603
+    nsecs: 588618993
+  frame_id: ''
+d: 0.00999999977648
+sigma_d: 0.0
+phi: 0.34999999404
+sigma_phi: 0.0
+status: 0
+in_lane: True
+---
+header: 
+  seq: 3
+  stamp: 
+    secs: 1541964603
+    nsecs: 923834085
+  frame_id: ''
+d: 0.00999999977648
+sigma_d: 0.0
+phi: 0.34999999404
+sigma_phi: 0.0
+status: 0
+in_lane: True
+---
+header: 
+  seq: 4
+  stamp: 
+    secs: 1541964604
+    nsecs: 185458898
+  frame_id: ''
+d: -0.070000000298
+sigma_d: 0.0
+phi: 1.45000004768
+sigma_phi: 0.0
+status: 0
+in_lane: True
+---
+header: 
+  seq: 5
+  stamp: 
+    secs: 1541964604
+    nsecs: 639786005
+  frame_id: ''
+d: 0.270000010729
+sigma_d: 0.0
+phi: -0.800000011921
+sigma_phi: 0.0
+status: 0
+in_lane: True
+---
+header: 
+  seq: 6
+  stamp: 
+    secs: 1541964605
+    nsecs: 342761039
+  frame_id: ''
+d: 0.00999999977648
+sigma_d: 0.0
+phi: 0.40000000596
+sigma_phi: 0.0
+status: 0
+in_lane: True
+---
+header: 
+  seq: 7
+  stamp: 
+    secs: 1541964605
+    nsecs: 840460062
+  frame_id: ''
+d: 0.25
+sigma_d: 0.0
+phi: -0.850000023842
+sigma_phi: 0.0
+status: 0
+in_lane: True
+---
+header: 
+  seq: 8
+  stamp: 
+    secs: 1541964606
+    nsecs: 351311922
+  frame_id: ''
+d: 0.00999999977648
+sigma_d: 0.0
+phi: 0.300000011921
+sigma_phi: 0.0
+status: 0
+in_lane: True
+---
+header: 
+  seq: 9
+  stamp: 
+    secs: 1541964606
+    nsecs: 799741029
+  frame_id: ''
+d: 0.25
+sigma_d: 0.0
+phi: -0.850000023842
+sigma_phi: 0.0
+status: 0
+in_lane: True
+---
+header: 
+  seq: 10
+  stamp: 
+    secs: 1541964607
+    nsecs: 284790992
+  frame_id: ''
+d: 0.00999999977648
+sigma_d: 0.0
+phi: 0.449999988079
+sigma_phi: 0.0
+status: 0
+in_lane: True
+---
+header: 
+  seq: 11
+  stamp: 
+    secs: 1541964607
+    nsecs: 823076963
+  frame_id: ''
+d: 0.00999999977648
+sigma_d: 0.0
+phi: 0.34999999404
+sigma_phi: 0.0
+status: 0
+in_lane: True
+---
+header: 
+  seq: 12
+  stamp: 
+    secs: 1541964608
+    nsecs: 249660968
+  frame_id: ''
+d: -0.00999999977648
+sigma_d: 0.0
+phi: 0.5
+sigma_phi: 0.0
+status: 0
+in_lane: True
+---
+header: 
+  seq: 13
+  stamp: 
+    secs: 1541964608
+    nsecs: 720046043
+  frame_id: ''
+d: 0.00999999977648
+sigma_d: 0.0
+phi: 0.40000000596
+sigma_phi: 0.0
+status: 0
+in_lane: True
+---
+header: 
+  seq: 14
+  stamp: 
+    secs: 1541964609
+    nsecs: 112238883
+  frame_id: ''
+d: 0.00999999977648
+sigma_d: 0.0
+phi: 0.40000000596
+sigma_phi: 0.0
+status: 0
+in_lane: True
+---
+header: 
+  seq: 15
+  stamp: 
+    secs: 1541964609
+    nsecs: 513703107
+  frame_id: ''
+d: 0.230000004172
+sigma_d: 0.0
+phi: -1.10000002384
+sigma_phi: 0.0
+status: 0
+in_lane: True
+---
+header: 
+  seq: 16
+  stamp: 
+    secs: 1541964610
+    nsecs:  18042087
+  frame_id: ''
+d: -0.0299999993294
+sigma_d: 0.0
+phi: 0.5
+sigma_phi: 0.0
+status: 0
+in_lane: True
+---
+header: 
+  seq: 17
+  stamp: 
+    secs: 1541964610
+    nsecs: 305864095
+  frame_id: ''
+d: 0.230000004172
+sigma_d: 0.0
+phi: -1.10000002384
+sigma_phi: 0.0
+status: 0
+in_lane: True
+---
+header: 
+  seq: 18
+  stamp: 
+    secs: 1541964610
+    nsecs: 637633085
+  frame_id: ''
+d: 0.00999999977648
+sigma_d: 0.0
+phi: 0.34999999404
+sigma_phi: 0.0
+status: 0
+in_lane: True
+---
+header: 
+  seq: 19
+  stamp: 
+    secs: 1541964610
+    nsecs: 870269060
+  frame_id: ''
+d: -0.0299999993294
+sigma_d: 0.0
+phi: 0.5
+sigma_phi: 0.0
+status: 0
+in_lane: True
+---
+header: 
+  seq: 20
+  stamp: 
+    secs: 1541964611
+    nsecs: 141191959
+  frame_id: ''
+d: 0.00999999977648
+sigma_d: 0.0
+phi: 0.449999988079
+sigma_phi: 0.0
+status: 0
+in_lane: True
+---
+header: 
+  seq: 21
+  stamp: 
+    secs: 1541964611
+    nsecs: 442210912
+  frame_id: ''
+d: 0.25
+sigma_d: 0.0
+phi: -0.850000023842
+sigma_phi: 0.0
+status: 0
+in_lane: True
+---
+header: 
+  seq: 22
+  stamp: 
+    secs: 1541964611
+    nsecs: 609766006
+  frame_id: ''
+d: 0.25
+sigma_d: 0.0
+phi: -1.04999995232
+sigma_phi: 0.0
+status: 0
+in_lane: True
+---
+header: 
+  seq: 23
+  stamp: 
+    secs: 1541964611
+    nsecs: 910214900
+  frame_id: ''
+d: -0.0299999993294
+sigma_d: 0.0
+phi: 0.5
+sigma_phi: 0.0
+status: 0
+in_lane: True
+---
+header: 
+  seq: 24
+  stamp: 
+    secs: 1541964612
+    nsecs: 174226045
+  frame_id: ''
+d: 0.25
+sigma_d: 0.0
+phi: -0.699999988079
+sigma_phi: 0.0
+status: 0
+in_lane: True
+---
+header: 
+  seq: 25
+  stamp: 
+    secs: 1541964612
+    nsecs: 402307033
+  frame_id: ''
+d: 0.00999999977648
+sigma_d: 0.0
+phi: 0.40000000596
+sigma_phi: 0.0
+status: 0
+in_lane: True
+---
+header: 
+  seq: 26
+  stamp: 
+    secs: 1541964612
+    nsecs: 569809913
+  frame_id: ''
+d: -0.0299999993294
+sigma_d: 0.0
+phi: 0.5
+sigma_phi: 0.0
+status: 0
+in_lane: True
+---
+header: 
+  seq: 27
+  stamp: 
+    secs: 1541964612
+    nsecs: 775800943
+  frame_id: ''
+d: -0.0299999993294
+sigma_d: 0.0
+phi: 0.5
+sigma_phi: 0.0
+status: 0
+in_lane: True
+---
+header: 
+  seq: 28
+  stamp: 
+    secs: 1541964613
+    nsecs: 206121921
+  frame_id: ''
+d: -0.0299999993294
+sigma_d: 0.0
+phi: 0.699999988079
+sigma_phi: 0.0
+status: 0
+in_lane: True
+---
+header: 
+  seq: 29
+  stamp: 
+    secs: 1541964613
+    nsecs: 613527059
+  frame_id: ''
+d: 0.00999999977648
+sigma_d: 0.0
+phi: 0.300000011921
+sigma_phi: 0.0
+status: 0
+in_lane: True
+---
+header: 
+  seq: 30
+  stamp: 
+    secs: 1541964613
+    nsecs: 985739946
+  frame_id: ''
+d: 0.25
+sigma_d: 0.0
+phi: -1.20000004768
+sigma_phi: 0.0
+status: 0
+in_lane: True
+---
+header: 
+  seq: 31
+  stamp: 
+    secs: 1541964614
+    nsecs: 366955041
+  frame_id: ''
+d: 0.25
+sigma_d: 0.0
+phi: -1.10000002384
+sigma_phi: 0.0
+status: 0
+in_lane: True
+---
+header: 
+  seq: 32
+  stamp: 
+    secs: 1541964614
+    nsecs: 638349056
+  frame_id: ''
+d: -0.0299999993294
+sigma_d: 0.0
+phi: 0.5
+sigma_phi: 0.0
+status: 0
+in_lane: True
+---
+header: 
+  seq: 33
+  stamp: 
+    secs: 1541964614
+    nsecs: 851445913
+  frame_id: ''
+d: 0.25
+sigma_d: 0.0
+phi: -0.75
+sigma_phi: 0.0
+status: 0
+in_lane: True
+---
+header: 
+  seq: 34
+  stamp: 
+    secs: 1541964615
+    nsecs:  80384016
+  frame_id: ''
+d: 0.00999999977648
+sigma_d: 0.0
+phi: 0.449999988079
+sigma_phi: 0.0
+status: 0
+in_lane: True
+---
+header: 
+  seq: 35
+  stamp: 
+    secs: 1541964615
+    nsecs: 447778940
+  frame_id: ''
+d: 0.00999999977648
+sigma_d: 0.0
+phi: 0.449999988079
+sigma_phi: 0.0
+status: 0
+in_lane: True
+---
+header: 
+  seq: 36
+  stamp: 
+    secs: 1541964615
+    nsecs: 847901105
+  frame_id: ''
+d: -0.00999999977648
+sigma_d: 0.0
+phi: 0.5
+sigma_phi: 0.0
+status: 0
+in_lane: True
+---
+header: 
+  seq: 37
+  stamp: 
+    secs: 1541964616
+    nsecs: 269093036
+  frame_id: ''
+d: 0.00999999977648
+sigma_d: 0.0
+phi: 0.40000000596
+sigma_phi: 0.0
+status: 0
+in_lane: True
+---
+header: 
+  seq: 38
+  stamp: 
+    secs: 1541964616
+    nsecs: 604350090
+  frame_id: ''
+d: -0.070000000298
+sigma_d: 0.0
+phi: 0.649999976158
+sigma_phi: 0.0
+status: 0
+in_lane: True
+---
+header: 
+  seq: 39
+  stamp: 
+    secs: 1541964616
+    nsecs: 950913906
+  frame_id: ''
+d: 0.230000004172
+sigma_d: 0.0
+phi: -0.75
+sigma_phi: 0.0
+status: 0
+in_lane: True
+---
+header: 
+  seq: 40
+  stamp: 
+    secs: 1541964617
+    nsecs: 364649057
+  frame_id: ''
+d: 0.209999993443
+sigma_d: 0.0
+phi: -1.0
+sigma_phi: 0.0
+status: 0
+in_lane: True
+---
+header: 
+  seq: 41
+  stamp: 
+    secs: 1541964617
+    nsecs: 758642911
+  frame_id: ''
+d: 0.00999999977648
+sigma_d: 0.0
+phi: 0.300000011921
+sigma_phi: 0.0
+status: 0
+in_lane: True
+---
+header: 
+  seq: 42
+  stamp: 
+    secs: 1541964618
+    nsecs:  46221971
+  frame_id: ''
+d: 0.00999999977648
+sigma_d: 0.0
+phi: 0.40000000596
+sigma_phi: 0.0
+status: 0
+in_lane: True
+---
+header: 
+  seq: 43
+  stamp: 
+    secs: 1541964618
+    nsecs: 584628105
+  frame_id: ''
+d: 0.25
+sigma_d: 0.0
+phi: -0.850000023842
+sigma_phi: 0.0
+status: 0
+in_lane: True
+---
+header: 
+  seq: 44
+  stamp: 
+    secs: 1541964618
+    nsecs: 898806095
+  frame_id: ''
+d: 0.00999999977648
+sigma_d: 0.0
+phi: 0.449999988079
+sigma_phi: 0.0
+status: 0
+in_lane: True
+---
+header: 
+  seq: 45
+  stamp: 
+    secs: 1541964619
+    nsecs: 106076002
+  frame_id: ''
+d: 0.00999999977648
+sigma_d: 0.0
+phi: 0.300000011921
+sigma_phi: 0.0
+status: 0
+in_lane: True
+---
+header: 
+  seq: 46
+  stamp: 
+    secs: 1541964619
+    nsecs: 341897010
+  frame_id: ''
+d: -0.00999999977648
+sigma_d: 0.0
+phi: 0.5
+sigma_phi: 0.0
+status: 0
+in_lane: True
+---
+header: 
+  seq: 47
+  stamp: 
+    secs: 1541964619
+    nsecs: 496978044
+  frame_id: ''
+d: -0.0299999993294
+sigma_d: 0.0
+phi: 0.5
+sigma_phi: 0.0
+status: 0
+in_lane: True
+---
+header: 
+  seq: 48
+  stamp: 
+    secs: 1541964619
+    nsecs: 793626070
+  frame_id: ''
+d: -0.00999999977648
+sigma_d: 0.0
+phi: 0.449999988079
+sigma_phi: 0.0
+status: 0
+in_lane: True
+---
+header: 
+  seq: 49
+  stamp: 
+    secs: 1541964619
+    nsecs: 975672960
+  frame_id: ''
+d: 0.00999999977648
+sigma_d: 0.0
+phi: 0.34999999404
+sigma_phi: 0.0
+status: 0
+in_lane: True
+---
+header: 
+  seq: 50
+  stamp: 
+    secs: 1541964620
+    nsecs: 211869001
+  frame_id: ''
+d: 0.270000010729
+sigma_d: 0.0
+phi: -1.45000004768
+sigma_phi: 0.0
+status: 0
+in_lane: True
+---
+header: 
+  seq: 51
+  stamp: 
+    secs: 1541964620
+    nsecs: 432527065
+  frame_id: ''
+d: 0.00999999977648
+sigma_d: 0.0
+phi: 0.300000011921
+sigma_phi: 0.0
+status: 0
+in_lane: True
+---
+header: 
+  seq: 52
+  stamp: 
+    secs: 1541964620
+    nsecs: 639344930
+  frame_id: ''
+d: 0.00999999977648
+sigma_d: 0.0
+phi: 0.449999988079
+sigma_phi: 0.0
+status: 0
+in_lane: True
+---
+header: 
+  seq: 53
+  stamp: 
+    secs: 1541964620
+    nsecs: 828747034
+  frame_id: ''
+d: 0.230000004172
+sigma_d: 0.0
+phi: -0.550000011921
+sigma_phi: 0.0
+status: 0
+in_lane: True
+---
+header: 
+  seq: 54
+  stamp: 
+    secs: 1541964620
+    nsecs: 965060949
+  frame_id: ''
+d: 0.00999999977648
+sigma_d: 0.0
+phi: 0.449999988079
+sigma_phi: 0.0
+status: 0
+in_lane: True
+---
+header: 
+  seq: 55
+  stamp: 
+    secs: 1541964621
+    nsecs: 192697048
+  frame_id: ''
+d: -0.00999999977648
+sigma_d: 0.0
+phi: 0.449999988079
+sigma_phi: 0.0
+status: 0
+in_lane: True
+---
+header: 
+  seq: 56
+  stamp: 
+    secs: 1541964621
+    nsecs: 364447116
+  frame_id: ''
+d: 0.25
+sigma_d: 0.0
+phi: -0.800000011921
+sigma_phi: 0.0
+status: 0
+in_lane: True
+---
+header: 
+  seq: 57
+  stamp: 
+    secs: 1541964621
+    nsecs: 498485088
+  frame_id: ''
+d: -0.00999999977648
+sigma_d: 0.0
+phi: 0.449999988079
+sigma_phi: 0.0
+status: 0
+in_lane: True
+---
+header: 
+  seq: 58
+  stamp: 
+    secs: 1541964621
+    nsecs: 702151060
+  frame_id: ''
+d: 0.209999993443
+sigma_d: 0.0
+phi: -0.699999988079
+sigma_phi: 0.0
+status: 0
+in_lane: True
+---
+header: 
+  seq: 59
+  stamp: 
+    secs: 1541964621
+    nsecs: 930557966
+  frame_id: ''
+d: 0.00999999977648
+sigma_d: 0.0
+phi: 0.300000011921
+sigma_phi: 0.0
+status: 0
+in_lane: True
+---
+header: 
+  seq: 60
+  stamp: 
+    secs: 1541964622
+    nsecs: 192378997
+  frame_id: ''
+d: -0.00999999977648
+sigma_d: 0.0
+phi: 0.5
+sigma_phi: 0.0
+status: 0
+in_lane: True
+---
+header: 
+  seq: 61
+  stamp: 
+    secs: 1541964622
+    nsecs: 461144924
+  frame_id: ''
+d: 0.00999999977648
+sigma_d: 0.0
+phi: 0.34999999404
+sigma_phi: 0.0
+status: 0
+in_lane: True
+---
+header: 
+  seq: 62
+  stamp: 
+    secs: 1541964622
+    nsecs: 691996097
+  frame_id: ''
+d: 0.209999993443
+sigma_d: 0.0
+phi: -1.0
+sigma_phi: 0.0
+status: 0
+in_lane: True
+---
+header: 
+  seq: 63
+  stamp: 
+    secs: 1541964622
+    nsecs: 825243949
+  frame_id: ''
+d: 0.00999999977648
+sigma_d: 0.0
+phi: 0.300000011921
+sigma_phi: 0.0
+status: 0
+in_lane: True
+---
+header: 
+  seq: 64
+  stamp: 
+    secs: 1541964622
+    nsecs: 966911077
+  frame_id: ''
+d: -0.00999999977648
+sigma_d: 0.0
+phi: 0.5
+sigma_phi: 0.0
+status: 0
+in_lane: True
+---
+header: 
+  seq: 65
+  stamp: 
+    secs: 1541964623
+    nsecs: 173091888
+  frame_id: ''
+d: -0.00999999977648
+sigma_d: 0.0
+phi: 0.40000000596
+sigma_phi: 0.0
+status: 0
+in_lane: True
+---
+header: 
+  seq: 66
+  stamp: 
+    secs: 1541964623
+    nsecs: 405075073
+  frame_id: ''
+d: 0.25
+sigma_d: 0.0
+phi: -1.14999997616
+sigma_phi: 0.0
+status: 0
+in_lane: True
+---
+header: 
+  seq: 67
+  stamp: 
+    secs: 1541964623
+    nsecs: 596431016
+  frame_id: ''
+d: 0.25
+sigma_d: 0.0
+phi: -0.800000011921
+sigma_phi: 0.0
+status: 0
+in_lane: True
+---
+header: 
+  seq: 68
+  stamp: 
+    secs: 1541964623
+    nsecs: 795608997
+  frame_id: ''
+d: 0.00999999977648
+sigma_d: 0.0
+phi: 0.300000011921
+sigma_phi: 0.0
+status: 0
+in_lane: True
+---
+header: 
+  seq: 69
+  stamp: 
+    secs: 1541964624
+    nsecs:  30343055
+  frame_id: ''
+d: 0.209999993443
+sigma_d: 0.0
+phi: -0.75
+sigma_phi: 0.0
+status: 0
+in_lane: True
+---
+header: 
+  seq: 70
+  stamp: 
+    secs: 1541964624
+    nsecs: 199166059
+  frame_id: ''
+d: -0.0299999993294
+sigma_d: 0.0
+phi: 0.449999988079
+sigma_phi: 0.0
+status: 0
+in_lane: True
+---
+header: 
+  seq: 71
+  stamp: 
+    secs: 1541964624
+    nsecs: 429347991
+  frame_id: ''
+d: 0.00999999977648
+sigma_d: 0.0
+phi: 0.25
+sigma_phi: 0.0
+status: 0
+in_lane: True
+---
+header: 
+  seq: 72
+  stamp: 
+    secs: 1541964624
+    nsecs: 661967992
+  frame_id: ''
+d: 0.25
+sigma_d: 0.0
+phi: -0.899999976158
+sigma_phi: 0.0
+status: 0
+in_lane: True
+---
+header: 
+  seq: 73
+  stamp: 
+    secs: 1541964624
+    nsecs: 856699943
+  frame_id: ''
+d: 0.00999999977648
+sigma_d: 0.0
+phi: 0.300000011921
+sigma_phi: 0.0
+status: 0
+in_lane: True
+---
+header: 
+  seq: 74
+  stamp: 
+    secs: 1541964625
+    nsecs:  99200010
+  frame_id: ''
+d: 0.00999999977648
+sigma_d: 0.0
+phi: 0.25
+sigma_phi: 0.0
+status: 0
+in_lane: True
+---
+header: 
+  seq: 75
+  stamp: 
+    secs: 1541964625
+    nsecs: 297532081
+  frame_id: ''
+d: -0.00999999977648
+sigma_d: 0.0
+phi: 0.34999999404
+sigma_phi: 0.0
+status: 0
+in_lane: True
+---
+header: 
+  seq: 76
+  stamp: 
+    secs: 1541964625
+    nsecs: 526257038
+  frame_id: ''
+d: 0.230000004172
+sigma_d: 0.0
+phi: -0.699999988079
+sigma_phi: 0.0
+status: 0
+in_lane: True
+---
+header: 
+  seq: 77
+  stamp: 
+    secs: 1541964625
+    nsecs: 727468013
+  frame_id: ''
+d: -0.00999999977648
+sigma_d: 0.0
+phi: 0.25
+sigma_phi: 0.0
+status: 0
+in_lane: True
+---
+header: 
+  seq: 78
+  stamp: 
+    secs: 1541964625
+    nsecs: 892442941
+  frame_id: ''
+d: 0.209999993443
+sigma_d: 0.0
+phi: -0.850000023842
+sigma_phi: 0.0
+status: 0
+in_lane: True
+---
+header: 
+  seq: 79
+  stamp: 
+    secs: 1541964626
+    nsecs:  37266969
+  frame_id: ''
+d: 0.0500000007451
+sigma_d: 0.0
+phi: 0.0
+sigma_phi: 0.0
+status: 0
+in_lane: False
+---
+header: 
+  seq: 80
+  stamp: 
+    secs: 1541964626
+    nsecs: 292627096
+  frame_id: ''
+d: 0.00999999977648
+sigma_d: 0.0
+phi: 0.25
+sigma_phi: 0.0
+status: 0
+in_lane: False
+---
+header: 
+  seq: 81
+  stamp: 
+    secs: 1541964626
+    nsecs: 463970899
+  frame_id: ''
+d: -0.00999999977648
+sigma_d: 0.0
+phi: 0.34999999404
+sigma_phi: 0.0
+status: 0
+in_lane: False
+---
+header: 
+  seq: 82
+  stamp: 
+    secs: 1541964626
+    nsecs: 690069913
+  frame_id: ''
+d: -0.00999999977648
+sigma_d: 0.0
+phi: 0.34999999404
+sigma_phi: 0.0
+status: 0
+in_lane: False
+---
+header: 
+  seq: 83
+  stamp: 
+    secs: 1541964626
+    nsecs: 826823949
+  frame_id: ''
+d: -0.0299999993294
+sigma_d: 0.0
+phi: 0.40000000596
+sigma_phi: 0.0
+status: 0
+in_lane: True
+---
+header: 
+  seq: 84
+  stamp: 
+    secs: 1541964627
+    nsecs:  63426971
+  frame_id: ''
+d: 0.00999999977648
+sigma_d: 0.0
+phi: 0.15000000596
+sigma_phi: 0.0
+status: 0
+in_lane: True
+---
+header: 
+  seq: 85
+  stamp: 
+    secs: 1541964627
+    nsecs: 262890100
+  frame_id: ''
+d: 0.00999999977648
+sigma_d: 0.0
+phi: 0.10000000149
+sigma_phi: 0.0
+status: 0
+in_lane: True
+---
+header: 
+  seq: 86
+  stamp: 
+    secs: 1541964627
+    nsecs: 471754074
+  frame_id: ''
+d: 0.209999993443
+sigma_d: 0.0
+phi: -0.850000023842
+sigma_phi: 0.0
+status: 0
+in_lane: True
+---
+header: 
+  seq: 87
+  stamp: 
+    secs: 1541964627
+    nsecs: 691487073
+  frame_id: ''
+d: 0.00999999977648
+sigma_d: 0.0
+phi: 0.20000000298
+sigma_phi: 0.0
+status: 0
+in_lane: True
+---
+header: 
+  seq: 88
+  stamp: 
+    secs: 1541964627
+    nsecs: 827411890
+  frame_id: ''
+d: -0.0299999993294
+sigma_d: 0.0
+phi: 0.34999999404
+sigma_phi: 0.0
+status: 0
+in_lane: True
+---
+header: 
+  seq: 89
+  stamp: 
+    secs: 1541964628
+    nsecs:   5024909
+  frame_id: ''
+d: -0.0900000035763
+sigma_d: 0.0
+phi: 0.75
+sigma_phi: 0.0
+status: 0
+in_lane: True
+---
+header: 
+  seq: 90
+  stamp: 
+    secs: 1541964628
+    nsecs: 193228960
+  frame_id: ''
+d: -0.00999999977648
+sigma_d: 0.0
+phi: 0.25
+sigma_phi: 0.0
+status: 0
+in_lane: False
+---
+header: 
+  seq: 91
+  stamp: 
+    secs: 1541964628
+    nsecs: 455610036
+  frame_id: ''
+d: -0.0299999993294
+sigma_d: 0.0
+phi: 0.34999999404
+sigma_phi: 0.0
+status: 0
+in_lane: True
+---
+header: 
+  seq: 92
+  stamp: 
+    secs: 1541964628
+    nsecs: 673113107
+  frame_id: ''
+d: 0.230000004172
+sigma_d: 0.0
+phi: -0.75
+sigma_phi: 0.0
+status: 0
+in_lane: True
+---
+header: 
+  seq: 93
+  stamp: 
+    secs: 1541964628
+    nsecs: 890613079
+  frame_id: ''
+d: -0.00999999977648
+sigma_d: 0.0
+phi: 0.25
+sigma_phi: 0.0
+status: 0
+in_lane: True
+---
+header: 
+  seq: 94
+  stamp: 
+    secs: 1541964629
+    nsecs:  93331098
+  frame_id: ''
+d: 0.230000004172
+sigma_d: 0.0
+phi: -0.75
+sigma_phi: 0.0
+status: 0
+in_lane: True
+---
+header: 
+  seq: 95
+  stamp: 
+    secs: 1541964629
+    nsecs: 267416954
+  frame_id: ''
+d: -0.00999999977648
+sigma_d: 0.0
+phi: 0.10000000149
+sigma_phi: 0.0
+status: 0
+in_lane: True
+---
+header: 
+  seq: 96
+  stamp: 
+    secs: 1541964629
+    nsecs: 525542020
+  frame_id: ''
+d: -0.00999999977648
+sigma_d: 0.0
+phi: 0.25
+sigma_phi: 0.0
+status: 0
+in_lane: False
+---
+header: 
+  seq: 97
+  stamp: 
+    secs: 1541964629
+    nsecs: 723910093
+  frame_id: ''
+d: 0.209999993443
+sigma_d: 0.0
+phi: -1.04999995232
+sigma_phi: 0.0
+status: 0
+in_lane: True
+---
+header: 
+  seq: 98
+  stamp: 
+    secs: 1541964629
+    nsecs: 937079906
+  frame_id: ''
+d: -0.0299999993294
+sigma_d: 0.0
+phi: 0.300000011921
+sigma_phi: 0.0
+status: 0
+in_lane: True
+---
+header: 
+  seq: 99
+  stamp: 
+    secs: 1541964630
+    nsecs: 163723945
+  frame_id: ''
+d: -0.0299999993294
+sigma_d: 0.0
+phi: 0.300000011921
+sigma_phi: 0.0
+status: 0
+in_lane: True
+---
+header: 
+  seq: 100
+  stamp: 
+    secs: 1541964630
+    nsecs: 326472997
+  frame_id: ''
+d: -0.0299999993294
+sigma_d: 0.0
+phi: 0.20000000298
+sigma_phi: 0.0
+status: 0
+in_lane: True
+---
+header: 
+  seq: 101
+  stamp: 
+    secs: 1541964630
+    nsecs: 597271919
+  frame_id: ''
+d: 0.00999999977648
+sigma_d: 0.0
+phi: -0.10000000149
+sigma_phi: 0.0
+status: 0
+in_lane: True
+---
+header: 
+  seq: 102
+  stamp: 
+    secs: 1541964630
+    nsecs: 762144088
+  frame_id: ''
+d: -0.00999999977648
+sigma_d: 0.0
+phi: 0.0500000007451
+sigma_phi: 0.0
+status: 0
+in_lane: True
+---
+header: 
+  seq: 103
+  stamp: 
+    secs: 1541964630
+    nsecs: 929316997
+  frame_id: ''
+d: 0.189999997616
+sigma_d: 0.0
+phi: -1.14999997616
+sigma_phi: 0.0
+status: 0
+in_lane: True
+---
+header: 
+  seq: 104
+  stamp: 
+    secs: 1541964631
+    nsecs: 132707118
+  frame_id: ''
+d: 0.189999997616
+sigma_d: 0.0
+phi: -1.0
+sigma_phi: 0.0
+status: 0
+in_lane: True
+---
+header: 
+  seq: 105
+  stamp: 
+    secs: 1541964631
+    nsecs: 323849916
+  frame_id: ''
+d: 0.00999999977648
+sigma_d: 0.0
+phi: -0.0500000007451
+sigma_phi: 0.0
+status: 0
+in_lane: True
+---
+header: 
+  seq: 106
+  stamp: 
+    secs: 1541964631
+    nsecs: 525329113
+  frame_id: ''
+d: 0.00999999977648
+sigma_d: 0.0
+phi: -0.10000000149
+sigma_phi: 0.0
+status: 0
+in_lane: True
+---
+header: 
+  seq: 107
+  stamp: 
+    secs: 1541964631
+    nsecs: 725699901
+  frame_id: ''
+d: 0.189999997616
+sigma_d: 0.0
+phi: -1.0
+sigma_phi: 0.0
+status: 0
+in_lane: True
+---
+header: 
+  seq: 108
+  stamp: 
+    secs: 1541964631
+    nsecs: 926436901
+  frame_id: ''
+d: 0.209999993443
+sigma_d: 0.0
+phi: -1.04999995232
+sigma_phi: 0.0
+status: 0
+in_lane: True
+---
+header: 
+  seq: 109
+  stamp: 
+    secs: 1541964632
+    nsecs:  91907978
+  frame_id: ''
+d: -0.0299999993294
+sigma_d: 0.0
+phi: 0.10000000149
+sigma_phi: 0.0
+status: 0
+in_lane: True
+---
+header: 
+  seq: 110
+  stamp: 
+    secs: 1541964632
+    nsecs: 322321891
+  frame_id: ''
+d: -0.00999999977648
+sigma_d: 0.0
+phi: 0.0
+sigma_phi: 0.0
+status: 0
+in_lane: True
+---
+header: 
+  seq: 111
+  stamp: 
+    secs: 1541964632
+    nsecs: 522712945
+  frame_id: ''
+d: 0.209999993443
+sigma_d: 0.0
+phi: -0.75
+sigma_phi: 0.0
+status: 0
+in_lane: True
+---
+header: 
+  seq: 112
+  stamp: 
+    secs: 1541964632
+    nsecs: 723295927
+  frame_id: ''
+d: 0.209999993443
+sigma_d: 0.0
+phi: -0.850000023842
+sigma_phi: 0.0
+status: 0
+in_lane: True
+---
+header: 
+  seq: 113
+  stamp: 
+    secs: 1541964632
+    nsecs: 889219045
+  frame_id: ''
+d: -0.0299999993294
+sigma_d: 0.0
+phi: 0.15000000596
+sigma_phi: 0.0
+status: 0
+in_lane: True
+---
+header: 
+  seq: 114
+  stamp: 
+    secs: 1541964633
+    nsecs: 195269107
+  frame_id: ''
+d: 0.00999999977648
+sigma_d: 0.0
+phi: -0.40000000596
+sigma_phi: 0.0
+status: 0
+in_lane: True
+---
+header: 
+  seq: 115
+  stamp: 
+    secs: 1541964633
+    nsecs: 325928926
+  frame_id: ''
+d: 0.25
+sigma_d: 0.0
+phi: -0.600000023842
+sigma_phi: 0.0
+status: 0
+in_lane: True
+---
+header: 
+  seq: 116
+  stamp: 
+    secs: 1541964633
+    nsecs: 555257081
+  frame_id: ''
+d: 0.170000001788
+sigma_d: 0.0
+phi: -1.14999997616
+sigma_phi: 0.0
+status: 0
+in_lane: True
+---
+header: 
+  seq: 117
+  stamp: 
+    secs: 1541964633
+    nsecs: 757895946
+  frame_id: ''
+d: 0.209999993443
+sigma_d: 0.0
+phi: -0.850000023842
+sigma_phi: 0.0
+status: 0
+in_lane: True
+---
+header: 
+  seq: 118
+  stamp: 
+    secs: 1541964633
+    nsecs: 927917957
+  frame_id: ''
+d: -0.0299999993294
+sigma_d: 0.0
+phi: 0.0
+sigma_phi: 0.0
+status: 0
+in_lane: True
+---
+header: 
+  seq: 119
+  stamp: 
+    secs: 1541964634
+    nsecs: 147311925
+  frame_id: ''
+d: 0.209999993443
+sigma_d: 0.0
+phi: -0.699999988079
+sigma_phi: 0.0
+status: 0
+in_lane: True
+---
+header: 
+  seq: 120
+  stamp: 
+    secs: 1541964634
+    nsecs: 390393972
+  frame_id: ''
+d: 0.209999993443
+sigma_d: 0.0
+phi: -0.850000023842
+sigma_phi: 0.0
+status: 0
+in_lane: True
+---
+header: 
+  seq: 121
+  stamp: 
+    secs: 1541964634
+    nsecs: 590043067
+  frame_id: ''
+d: 0.189999997616
+sigma_d: 0.0
+phi: -0.800000011921
+sigma_phi: 0.0
+status: 0
+in_lane: True
+---
+header: 
+  seq: 122
+  stamp: 
+    secs: 1541964634
+    nsecs: 785482883
+  frame_id: ''
+d: 0.209999993443
+sigma_d: 0.0
+phi: -0.899999976158
+sigma_phi: 0.0
+status: 0
+in_lane: True
+---
+header: 
+  seq: 123
+  stamp: 
+    secs: 1541964634
+    nsecs: 934006929
+  frame_id: ''
+d: 0.209999993443
+sigma_d: 0.0
+phi: -0.75
+sigma_phi: 0.0
+status: 0
+in_lane: True
+---
+header: 
+  seq: 124
+  stamp: 
+    secs: 1541964635
+    nsecs: 187695980
+  frame_id: ''
+d: 0.270000010729
+sigma_d: 0.0
+phi: -0.850000023842
+sigma_phi: 0.0
+status: 0
+in_lane: True
+---
+header: 
+  seq: 125
+  stamp: 
+    secs: 1541964635
+    nsecs: 385473012
+  frame_id: ''
+d: 0.270000010729
+sigma_d: 0.0
+phi: -0.850000023842
+sigma_phi: 0.0
+status: 0
+in_lane: True
+---
+header: 
+  seq: 126
+  stamp: 
+    secs: 1541964635
+    nsecs: 554058074
+  frame_id: ''
+d: 0.189999997616
+sigma_d: 0.0
+phi: -1.10000002384
+sigma_phi: 0.0
+status: 0
+in_lane: True
+---
+header: 
+  seq: 127
+  stamp: 
+    secs: 1541964635
+    nsecs: 787102937
+  frame_id: ''
+d: -0.00999999977648
+sigma_d: 0.0
+phi: -0.15000000596
+sigma_phi: 0.0
+status: 0
+in_lane: True
+---
+header: 
+  seq: 128
+  stamp: 
+    secs: 1541964636
+    nsecs:  35279989
+  frame_id: ''
+d: -0.0500000007451
+sigma_d: 0.0
+phi: 0.10000000149
+sigma_phi: 0.0
+status: 0
+in_lane: True
+---
+header: 
+  seq: 129
+  stamp: 
+    secs: 1541964636
+    nsecs: 230346918
+  frame_id: ''
+d: 0.189999997616
+sigma_d: 0.0
+phi: -0.5
+sigma_phi: 0.0
+status: 0
+in_lane: False
+---
+header: 
+  seq: 130
+  stamp: 
+    secs: 1541964636
+    nsecs: 484596014
+  frame_id: ''
+d: -0.0500000007451
+sigma_d: 0.0
+phi: 0.0500000007451
+sigma_phi: 0.0
+status: 0
+in_lane: True
+---
+header: 
+  seq: 131
+  stamp: 
+    secs: 1541964636
+    nsecs: 653393983
+  frame_id: ''
+d: -0.00999999977648
+sigma_d: 0.0
+phi: -0.20000000298
+sigma_phi: 0.0
+status: 0
+in_lane: True
+---
+header: 
+  seq: 132
+  stamp: 
+    secs: 1541964636
+    nsecs: 819935083
+  frame_id: ''
+d: 0.270000010729
+sigma_d: 0.0
+phi: -0.850000023842
+sigma_phi: 0.0
+status: 0
+in_lane: True
+---
+header: 
+  seq: 133
+  stamp: 
+    secs: 1541964637
+    nsecs:  88670969
+  frame_id: ''
+d: 0.170000001788
+sigma_d: 0.0
+phi: -0.850000023842
+sigma_phi: 0.0
+status: 0
+in_lane: True
+---
+header: 
+  seq: 134
+  stamp: 
+    secs: 1541964637
+    nsecs: 287278890
+  frame_id: ''
+d: -0.00999999977648
+sigma_d: 0.0
+phi: -0.550000011921
+sigma_phi: 0.0
+status: 0
+in_lane: True
+---
+header: 
+  seq: 135
+  stamp: 
+    secs: 1541964637
+    nsecs: 470721960
+  frame_id: ''
+d: -0.00999999977648
+sigma_d: 0.0
+phi: -0.649999976158
+sigma_phi: 0.0
+status: 0
+in_lane: True
+---
+header: 
+  seq: 136
+  stamp: 
+    secs: 1541964637
+    nsecs: 685961961
+  frame_id: ''
+d: 0.230000004172
+sigma_d: 0.0
+phi: -0.800000011921
+sigma_phi: 0.0
+status: 0
+in_lane: True
+---
+header: 
+  seq: 137
+  stamp: 
+    secs: 1541964637
+    nsecs: 883768081
+  frame_id: ''
+d: 0.170000001788
+sigma_d: 0.0
+phi: -0.75
+sigma_phi: 0.0
+status: 0
+in_lane: True
+---
+header: 
+  seq: 138
+  stamp: 
+    secs: 1541964638
+    nsecs:  65314054
+  frame_id: ''
+d: -0.0299999993294
+sigma_d: 0.0
+phi: -0.25
+sigma_phi: 0.0
+status: 0
+in_lane: True
+---
+header: 
+  seq: 139
+  stamp: 
+    secs: 1541964638
+    nsecs: 322341918
+  frame_id: ''
+d: 0.170000001788
+sigma_d: 0.0
+phi: -0.800000011921
+sigma_phi: 0.0
+status: 0
+in_lane: True
+---
+header: 
+  seq: 140
+  stamp: 
+    secs: 1541964638
+    nsecs: 486824035
+  frame_id: ''
+d: 0.170000001788
+sigma_d: 0.0
+phi: -0.550000011921
+sigma_phi: 0.0
+status: 0
+in_lane: True
+---
+header: 
+  seq: 141
+  stamp: 
+    secs: 1541964638
+    nsecs: 697274923
+  frame_id: ''
+d: 0.170000001788
+sigma_d: 0.0
+phi: -0.75
+sigma_phi: 0.0
+status: 0
+in_lane: True
+---
+header: 
+  seq: 142
+  stamp: 
+    secs: 1541964638
+    nsecs: 856482982
+  frame_id: ''
+d: 0.189999997616
+sigma_d: 0.0
+phi: -0.899999976158
+sigma_phi: 0.0
+status: 0
+in_lane: True
+---
+header: 
+  seq: 143
+  stamp: 
+    secs: 1541964639
+    nsecs:  50014019
+  frame_id: ''
+d: 0.230000004172
+sigma_d: 0.0
+phi: -0.850000023842
+sigma_phi: 0.0
+status: 0
+in_lane: True
+---
+header: 
+  seq: 144
+  stamp: 
+    secs: 1541964639
+    nsecs: 260169982
+  frame_id: ''
+d: 0.230000004172
+sigma_d: 0.0
+phi: -0.800000011921
+sigma_phi: 0.0
+status: 0
+in_lane: True
+---
+header: 
+  seq: 145
+  stamp: 
+    secs: 1541964639
+    nsecs: 455621004
+  frame_id: ''
+d: 0.230000004172
+sigma_d: 0.0
+phi: -0.850000023842
+sigma_phi: 0.0
+status: 0
+in_lane: True
+---
+header: 
+  seq: 146
+  stamp: 
+    secs: 1541964639
+    nsecs: 656635999
+  frame_id: ''
+d: 0.25
+sigma_d: 0.0
+phi: -0.949999988079
+sigma_phi: 0.0
+status: 0
+in_lane: True
+---
+header: 
+  seq: 147
+  stamp: 
+    secs: 1541964639
+    nsecs: 930777072
+  frame_id: ''
+d: 0.189999997616
+sigma_d: 0.0
+phi: -0.899999976158
+sigma_phi: 0.0
+status: 0
+in_lane: True
+---
+header: 
+  seq: 148
+  stamp: 
+    secs: 1541964640
+    nsecs: 129343032
+  frame_id: ''
+d: -0.00999999977648
+sigma_d: 0.0
+phi: -0.949999988079
+sigma_phi: 0.0
+status: 0
+in_lane: True
+---
+header: 
+  seq: 149
+  stamp: 
+    secs: 1541964640
+    nsecs: 320744991
+  frame_id: ''
+d: 0.170000001788
+sigma_d: 0.0
+phi: -0.800000011921
+sigma_phi: 0.0
+status: 0
+in_lane: True
+---
+header: 
+  seq: 150
+  stamp: 
+    secs: 1541964640
+    nsecs: 554034948
+  frame_id: ''
+d: -0.00999999977648
+sigma_d: 0.0
+phi: -0.5
+sigma_phi: 0.0
+status: 0
+in_lane: True
+---
+header: 
+  seq: 151
+  stamp: 
+    secs: 1541964640
+    nsecs: 724384069
+  frame_id: ''
+d: 0.15000000596
+sigma_d: 0.0
+phi: -0.699999988079
+sigma_phi: 0.0
+status: 0
+in_lane: True
+---
+header: 
+  seq: 152
+  stamp: 
+    secs: 1541964640
+    nsecs: 883321046
+  frame_id: ''
+d: -0.0500000007451
+sigma_d: 0.0
+phi: -0.20000000298
+sigma_phi: 0.0
+status: 0
+in_lane: True
+---
+header: 
+  seq: 153
+  stamp: 
+    secs: 1541964641
+    nsecs: 100577116
+  frame_id: ''
+d: 0.15000000596
+sigma_d: 0.0
+phi: -0.699999988079
+sigma_phi: 0.0
+status: 0
+in_lane: True
+---
+header: 
+  seq: 154
+  stamp: 
+    secs: 1541964641
+    nsecs: 323743104
+  frame_id: ''
+d: 0.189999997616
+sigma_d: 0.0
+phi: -0.649999976158
+sigma_phi: 0.0
+status: 0
+in_lane: True
+---
+header: 
+  seq: 155
+  stamp: 
+    secs: 1541964641
+    nsecs: 487390041
+  frame_id: ''
+d: 0.189999997616
+sigma_d: 0.0
+phi: -0.649999976158
+sigma_phi: 0.0
+status: 0
+in_lane: True
+---
+header: 
+  seq: 156
+  stamp: 
+    secs: 1541964641
+    nsecs: 687123060
+  frame_id: ''
+d: -0.0299999993294
+sigma_d: 0.0
+phi: -0.34999999404
+sigma_phi: 0.0
+status: 0
+in_lane: True
+---
+header: 
+  seq: 157
+  stamp: 
+    secs: 1541964641
+    nsecs: 854523897
+  frame_id: ''
+d: 0.230000004172
+sigma_d: 0.0
+phi: -1.0
+sigma_phi: 0.0
+status: 0
+in_lane: True
+---
+header: 
+  seq: 158
+  stamp: 
+    secs: 1541964642
+    nsecs:  89365005
+  frame_id: ''
+d: 0.230000004172
+sigma_d: 0.0
+phi: -0.949999988079
+sigma_phi: 0.0
+status: 0
+in_lane: True
+---
+header: 
+  seq: 159
+  stamp: 
+    secs: 1541964642
+    nsecs: 253268957
+  frame_id: ''
+d: 0.170000001788
+sigma_d: 0.0
+phi: -0.899999976158
+sigma_phi: 0.0
+status: 0
+in_lane: True
+---
+header: 
+  seq: 160
+  stamp: 
+    secs: 1541964642
+    nsecs: 450316905
+  frame_id: ''
+d: 0.209999993443
+sigma_d: 0.0
+phi: -0.800000011921
+sigma_phi: 0.0
+status: 0
+in_lane: True
+---
+header: 
+  seq: 161
+  stamp: 
+    secs: 1541964642
+    nsecs: 686619043
+  frame_id: ''
+d: 0.129999995232
+sigma_d: 0.0
+phi: -0.600000023842
+sigma_phi: 0.0
+status: 0
+in_lane: True
+---
+header: 
+  seq: 162
+  stamp: 
+    secs: 1541964642
+    nsecs: 847470998
+  frame_id: ''
+d: 0.209999993443
+sigma_d: 0.0
+phi: -0.800000011921
+sigma_phi: 0.0
+status: 0
+in_lane: True
+---
+header: 
+  seq: 163
+  stamp: 
+    secs: 1541964643
+    nsecs:  31219959
+  frame_id: ''
+d: 0.230000004172
+sigma_d: 0.0
+phi: -1.0
+sigma_phi: 0.0
+status: 0
+in_lane: True
+---
+header: 
+  seq: 164
+  stamp: 
+    secs: 1541964643
+    nsecs: 286303997
+  frame_id: ''
+d: 0.129999995232
+sigma_d: 0.0
+phi: -0.850000023842
+sigma_phi: 0.0
+status: 0
+in_lane: True
+---
+header: 
+  seq: 165
+  stamp: 
+    secs: 1541964643
+    nsecs: 422048091
+  frame_id: ''
+d: 0.15000000596
+sigma_d: 0.0
+phi: -0.800000011921
+sigma_phi: 0.0
+status: 0
+in_lane: True
+---
+header: 
+  seq: 166
+  stamp: 
+    secs: 1541964643
+    nsecs: 627676963
+  frame_id: ''
+d: -0.0500000007451
+sigma_d: 0.0
+phi: -0.40000000596
+sigma_phi: 0.0
+status: 0
+in_lane: True
+---
+header: 
+  seq: 167
+  stamp: 
+    secs: 1541964643
+    nsecs: 886054992
+  frame_id: ''
+d: 0.129999995232
+sigma_d: 0.0
+phi: -0.699999988079
+sigma_phi: 0.0
+status: 0
+in_lane: True
+---
+header: 
+  seq: 168
+  stamp: 
+    secs: 1541964644
+    nsecs: 158761024
+  frame_id: ''
+d: 0.15000000596
+sigma_d: 0.0
+phi: -0.899999976158
+sigma_phi: 0.0
+status: 0
+in_lane: True
+---
+header: 
+  seq: 169
+  stamp: 
+    secs: 1541964644
+    nsecs: 380757093
+  frame_id: ''
+d: 0.189999997616
+sigma_d: 0.0
+phi: -0.899999976158
+sigma_phi: 0.0
+status: 0
+in_lane: True
+---
+header: 
+  seq: 170
+  stamp: 
+    secs: 1541964644
+    nsecs: 620295047
+  frame_id: ''
+d: 0.129999995232
+sigma_d: 0.0
+phi: -0.800000011921
+sigma_phi: 0.0
+status: 0
+in_lane: True
+---
+header: 
+  seq: 171
+  stamp: 
+    secs: 1541964644
+    nsecs: 812074899
+  frame_id: ''
+d: -0.0500000007451
+sigma_d: 0.0
+phi: -0.449999988079
+sigma_phi: 0.0
+status: 0
+in_lane: True
+---
+header: 
+  seq: 172
+  stamp: 
+    secs: 1541964644
+    nsecs: 954615116
+  frame_id: ''
+d: 0.170000001788
+sigma_d: 0.0
+phi: -1.04999995232
+sigma_phi: 0.0
+status: 0
+in_lane: True
+---
+header: 
+  seq: 173
+  stamp: 
+    secs: 1541964645
+    nsecs: 222646951
+  frame_id: ''
+d: 0.209999993443
+sigma_d: 0.0
+phi: -1.04999995232
+sigma_phi: 0.0
+status: 0
+in_lane: True
+---
+header: 
+  seq: 174
+  stamp: 
+    secs: 1541964645
+    nsecs: 410986900
+  frame_id: ''
+d: 0.189999997616
+sigma_d: 0.0
+phi: -0.850000023842
+sigma_phi: 0.0
+status: 0
+in_lane: True
+---
+header: 
+  seq: 175
+  stamp: 
+    secs: 1541964645
+    nsecs: 678929090
+  frame_id: ''
+d: 0.209999993443
+sigma_d: 0.0
+phi: -1.04999995232
+sigma_phi: 0.0
+status: 0
+in_lane: True
+---
+header: 
+  seq: 176
+  stamp: 
+    secs: 1541964645
+    nsecs: 879096031
+  frame_id: ''
+d: 0.15000000596
+sigma_d: 0.0
+phi: -0.899999976158
+sigma_phi: 0.0
+status: 0
+in_lane: True
+---
+header: 
+  seq: 177
+  stamp: 
+    secs: 1541964646
+    nsecs: 132041931
+  frame_id: ''
+d: 0.189999997616
+sigma_d: 0.0
+phi: -0.899999976158
+sigma_phi: 0.0
+status: 0
+in_lane: True
+---
+header: 
+  seq: 178
+  stamp: 
+    secs: 1541964646
+    nsecs: 295099973
+  frame_id: ''
+d: -0.0500000007451
+sigma_d: 0.0
+phi: -0.449999988079
+sigma_phi: 0.0
+status: 0
+in_lane: True
+---
+header: 
+  seq: 179
+  stamp: 
+    secs: 1541964646
+    nsecs: 488953113
+  frame_id: ''
+d: 0.129999995232
+sigma_d: 0.0
+phi: -0.649999976158
+sigma_phi: 0.0
+status: 0
+in_lane: True
+---
+header: 
+  seq: 180
+  stamp: 
+    secs: 1541964646
+    nsecs: 686299085
+  frame_id: ''
+d: 0.129999995232
+sigma_d: 0.0
+phi: -0.600000023842
+sigma_phi: 0.0
+status: 0
+in_lane: True
+---
+header: 
+  seq: 181
+  stamp: 
+    secs: 1541964646
+    nsecs: 878235101
+  frame_id: ''
+d: 0.209999993443
+sigma_d: 0.0
+phi: -1.04999995232
+sigma_phi: 0.0
+status: 0
+in_lane: True
+---
+header: 
+  seq: 182
+  stamp: 
+    secs: 1541964647
+    nsecs:  83883047
+  frame_id: ''
+d: 0.129999995232
+sigma_d: 0.0
+phi: -0.75
+sigma_phi: 0.0
+status: 0
+in_lane: True
+---
+header: 
+  seq: 183
+  stamp: 
+    secs: 1541964647
+    nsecs: 319818019
+  frame_id: ''
+d: 0.129999995232
+sigma_d: 0.0
+phi: -0.899999976158
+sigma_phi: 0.0
+status: 0
+in_lane: True
+---

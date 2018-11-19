@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<launch>
+    <arg name="veh" default="pi" doc="Name of vehicle."/>
+
+    <!-- Camera and line detector -->
+    <include file="$(find duckietown)/launch/line_detector.launch">
+        <arg name="veh" value="$(arg veh)"/>
+    </include>
+
+    <!-- Ground projection -->
+    <node ns="$(arg veh)" name="ground_projection" pkg="ground_projection" type="ground_projection" output="screen" required="true">
+        <remap from="~lineseglist_in" to="line_detector_node/segment_list"/>
+        <!-- Note: image rectified internally -->
+        <remap from="~cali_image" to="camera_node/image/raw"/>
+        <remap from="~camera_info" to="camera_node/camera_info"/>
+    </node>
+</launch>

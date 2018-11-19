@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<launch>
+    <arg name="veh" default="pi" doc="Name of vehicle."/>
+
+    <node ns="$(arg veh)" name="tag_detector_node" pkg="ar_tags" type="tag_detector_node.py" output="screen" required="true">
+        <!-- Requires ground projection matrix to obtain tag coordinates -->
+        <rosparam command="load" file="$(find duckietown)/config/ground_projection/$(arg veh).yaml"/>
+    </node>
+</launch>

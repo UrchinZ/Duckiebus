@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<launch>
+    <arg name="veh" default="pi" doc="Name of vehicle."/>
+
+    <!-- Camera, line detector, and ground projection -->
+    <include file="$(find duckietown)/launch/ground_projection.launch">
+        <arg name="veh" value="$(arg veh)"/>
+    </include>
+
+    <!-- Test script -->
+    <node ns="$(arg veh)" pkg="ground_projection" type="test_projection_auto.py" name="test_projection" output="screen" />
+
+</launch>

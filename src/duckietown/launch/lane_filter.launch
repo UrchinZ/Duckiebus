@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<launch>
+    <arg name="veh" default="pi" doc="Name of vehicle."/>
+
+    <!-- Camera, line detector, and ground projection -->
+    <include file="$(find duckietown)/launch/ground_projection.launch">
+        <arg name="veh" value="$(arg veh)"/>
+    </include>
+
+    <!-- Lane filter -->
+    <node ns="$(arg veh)" name="lane_filter_node" pkg="lane_filter" type="lane_filter_node.py" output="screen" required="true">
+        <rosparam command="load" file="$(find lane_filter)/config/params.yaml"/>
+        <remap from="~segment_list" to="ground_projection/lineseglist_out"/>
+        <remap from="~velocity" to="dagu_car/vel_executed"/>
+    </node>
+
+    <!-- Produces visualization messages for rviz -->
+    <node ns="$(arg veh)" name="lane_pose_visualizer_node" pkg="lane_filter" type="lane_pose_visualizer_node.py" output="screen" required="true">
+        <remap from="~lane_pose" to="lane_filter_node/lane_pose"/>
+    </node>
+
+</launch>

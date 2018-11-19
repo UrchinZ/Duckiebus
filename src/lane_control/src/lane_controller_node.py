@@ -14,7 +14,7 @@ class lane_controller(object):
 
         #track previous d error
         self.prev_de = 0
-        self.filter_tune = 0.75
+        self.filter_tune = 0.85 #0.75
         # Setup parameters
         self.setGains()
 
@@ -43,7 +43,7 @@ class lane_controller(object):
         k_d = - (k_theta ** 2) / ( 4.0 * v_bar)
         theta_thres = math.pi / 6
         d_thres = math.fabs(k_theta / k_d) * theta_thres
-        d_offset = -0.05
+        d_offset =-.05 #-0.05
 
         self.v_bar = self.setupParameter("~v_bar",v_bar) # Linear velocity
         self.k_d = self.setupParameter("~k_d",k_theta) # P gain for theta
@@ -96,11 +96,11 @@ class lane_controller(object):
         self.lane_reading = lane_pose_msg
         cross_track_err = lane_pose_msg.d - self.d_offset 
         #tuning
-        cross_track_err = self.filter_tune*(cross_track_err+self.d_offset)+(1-self.filter_tune)*self.prev_de
+        #cross_track_err = self.filter_tune*(cross_track_err+self.d_offset)+(1-self.filter_tune)*self.prev_de
         #update
         self.prev_de = cross_track_err
         #true cross_track_error
-        cross_track_err = cross_track_err - self.d_offset
+        #cross_track_err = cross_track_err - self.d_offset
 
 
         heading_err = lane_pose_msg.phi

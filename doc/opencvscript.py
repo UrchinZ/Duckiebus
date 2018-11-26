@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 """
 Created on Mon Nov 26 10:29:52 2018
-
+Color detection
 @author: 2jzyz
 """
 # import the necessary packages
@@ -10,7 +10,7 @@ import numpy as np
 from matplotlib import pyplot as plt
 
 # load the image
-image = cv2.imread("line_seg.png")
+image = cv2.imread("out.jpg")
 # Convert BGR to HSV
 hsv = cv2.cvtColor(image, cv2.COLOR_BGR2HSV)
 # convert to RGB
@@ -45,6 +45,13 @@ mask = cv2.inRange(hsv, lower, upper)
 output = cv2.bitwise_and(hsv, image, mask = mask)
 # show result image
 plt.imshow(output)
+plt.show()
+
+#canny edge detection
+canny_thresholds = [80,200]
+edges = cv2.Canny(image, canny_thresholds[0], canny_thresholds[1], apertureSize = 3)
+edge_colored = cv2.bitwise_and(hsv, image,mask = edges)
+plt.imshow(edge_colored)
 plt.show()
 
 

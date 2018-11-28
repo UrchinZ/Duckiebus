@@ -21,7 +21,6 @@ kIw = -0.125/2
 
 class lane_controll_node:
 	def __init__(self):
-		
 		# set up subscriber for lane pose
 		rospy.Subscriber("~lane_pose_in", LanePose, self.recieve_pose, queue_size=1)
 

@@ -18,7 +18,7 @@
         <remap from="~car_cmd" to="supervisor/twist2d_in"/>
     </node>
 	
-	<!-- Stop line detector -->
+    <!-- Stop line detector -->
 	<node ns="$(arg veh)" name="stop_line_filter_node" pkg="intersection_control" type="stop_line_filter_node.py" output="screen" required="true">
         <remap from="~segment_list" to="ground_projection/lineseglist_out"/>
         <remap from="~at_stop_line" to="stop_line_filter/at_stop_line"/>
@@ -31,7 +31,7 @@
 		<remap from="~stop_line_in" to="stop_line_filter/at_stop_line"/>
 		<remap from="~twist2d_in" to="supervisor/twist2d_in"/>
 		<remap from="~twist2d_out" to="dagu_car/vel_cmd"/>
-		<rosparam file="intersection_control/config/maneuvers.yaml" />
+		<rosparam file="$(find intersection_control)/config/maneuvers.yaml" />
     </node>
 	
 	

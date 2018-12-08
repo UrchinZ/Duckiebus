@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<launch>
+    <arg name="veh" default="pi" doc="Name of vehicle."/>
+	<!-- uber node -->
+	<node ns="$(arg veh)"  name="uber_node" pkg="uber" type="uber.py" output="screen" required="true">
+		<rosparam file="$(find uber)/config/town.yaml" />
+		<param name="start" type="str" value="1" />
+		<param name="end" type="str" value = "2"/>
+		<param name="mode" type="str" value="taxi"/>
+    </node>
+
+</launch>

@@ -1,0 +1,15 @@
+1.intersection_control to subscribe to a topic called control
+	control message is a list of turns
+	intersection_control on finish of turns, send done to a topic called task
+2. 	Uber node has bus mode and taxi mode
+	on bus mode
+		Uber node subscribe to a topic called trip,
+			trip contains messages that indicated start and end
+	on taxi mode
+		Uber node prompts user for start and end
+	Uber node publishes to task topic (remapped to intersection_control/task), with sequence number
+
+3. Duckiebus node 
+	takes in bus stop information
+	publishes to trip
+	on receive of ack from uber, navigate for certain amount of time and then stop and prompt if all duckies are onboard

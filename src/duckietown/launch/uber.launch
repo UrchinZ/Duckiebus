@@ -5,9 +5,9 @@
 	<!-- supervisor node -->
 	<include file="$(find duckietown)/launch/stop_line_control.launch">
         <arg name="veh" value="$(arg veh)"/>
-        <param name="input_mode" type="bool" value="true"/>
+        <param name="input_mode" type="bool" value="false"/>
     </include>
-    
+
 	<!-- uber node -->
 	<node ns="$(arg veh)"  name="uber_node" pkg="uber" type="uber.py" output="screen" required="true">
 		<rosparam file="$(find uber)/config/town.yaml" />

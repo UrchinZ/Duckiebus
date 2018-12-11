@@ -38,12 +38,12 @@ class lane_controller(object):
         return value
 
     def setGains(self):
-        v_bar = 0.28
-        k_theta = -1.7
-        k_d = - (k_theta ** 2) / ( 4.0 * v_bar)
+        v_bar = 0.25
+        k_theta = -1.9
+        k_d = - (k_theta ** 2) / ( 5.5 * v_bar)
         theta_thres = math.pi / 2 #I don't think this variable is used
         d_thres = math.fabs(k_theta / k_d) * theta_thres
-        d_offset = 0.0 #-0.05
+        d_offset = -0.1 #-0.05
 
         self.v_bar = self.setupParameter("~v_bar",v_bar) # Linear velocity
         self.k_d = self.setupParameter("~k_d",k_theta) # P gain for theta
@@ -94,7 +94,7 @@ class lane_controller(object):
  
     def cbPose(self,lane_pose_msg):
         self.lane_reading = lane_pose_msg
-        cross_track_err = lane_pose_msg.d - self.d_offset 
+        cross_track_err = lane_pose_msg.d - self.d_offset
         #tuning
         #cross_track_err = self.filter_tune*(cross_track_err+self.d_offset)+(1-self.filter_tune)*self.prev_de
         #update
@@ -115,7 +115,7 @@ class lane_controller(object):
 	    #else:
                 #rospy.loginfo("positive")
             #cross_track_err = cross_track_err / math.fabs(cross_track_err) * self.d_thres
-        car_control_msg.omega =  self.k_d * cross_track_err + self.k_theta * heading_err #*self.steer_gain #Right stick H-axis. Right is negative
+        car_control_msg.omega =  self.k_d * cross_track_err*1.8 + self.k_theta * heading_err*1.375 #*self.steer_gain #Right stick H-axis. Right is negative
         
         self.publishCmd(car_control_msg)
 

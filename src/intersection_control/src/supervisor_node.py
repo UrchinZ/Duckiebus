@@ -36,10 +36,9 @@ class lane_controll_node:
 		# publish to ik node
 		self.motor_pub = rospy.Publisher("~twist2d_out", Twist2DStamped, queue_size=1)
 
-
+		self.input_mode = rospy.get_param("~input_mode")
 		self.in_turn = False
 		self.straightening = False
-		
 		self.last_input_pose = None
 		self.last_turn_time = 0.0
 
@@ -84,20 +83,24 @@ class lane_controll_node:
 				self.motor_pub.publish(stop_msg)
 
 			# get user input
-			command = raw_input("command (f, l, r):")
-			if command == "f":
-				print "f"
-				maneuver = rospy.get_param("~turn_forward")
-			elif command == "l":
-				print "l"
-				maneuver = rospy.get_param("~turn_left")
-			elif command == "r":
-				print "r"
-				maneuver = rospy.get_param("~turn_right")
+			if self.input_mode:
+				command = raw_input("command (f, l, r):")
+				if command == "f":
+					print "f"
+					maneuver = rospy.get_param("~turn_forward")
+				elif command == "l":
+					print "l"
+					maneuver = rospy.get_param("~turn_left")
+				elif command == "r":
+					print "r"
+					maneuver = rospy.get_param("~turn_right")
+				else:
+					print "incorrect command"
+					self.in_turn = False
+					return
 			else:
-				print "incorrect command"
-				self.in_turn = False
-				return
+				print "need to subscribe"
+				command = rospy.get_param("~turn_forward")
 
 			# execute the maneuver: (which is a lsit of durations and twist2d messages)
 			for command in maneuver:

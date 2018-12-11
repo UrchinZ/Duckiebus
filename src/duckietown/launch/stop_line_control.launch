@@ -32,6 +32,7 @@
 		<remap from="~twist2d_in" to="supervisor/twist2d_in"/>
 		<remap from="~twist2d_out" to="dagu_car/vel_cmd"/>
 		<rosparam file="$(find intersection_control)/config/maneuvers.yaml" />
+        <param name="input_mode" type="bool" value="true"/>
     </node>
 	
 	

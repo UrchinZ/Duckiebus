@@ -48,7 +48,7 @@ class lane_controll_node:
 		#periodically calls to update parameter
 		rospy.Timer(rospy.Duration.from_sec(1.0), self.update_param)
 
-	def update_param(self):
+	def update_param(self,event):
 		self.input_mode = rospy.get_param("~input_mode")
 		if not self.input_mode: #bus mode or taxi mode
 			self.job = rospy.get_param("~job")
@@ -111,12 +111,15 @@ class lane_controll_node:
 					self.in_turn = False
 					return
 			else: #bus or taxi mode
-				self.job = rospy.get_param("~job")
-				if self.job == "left":
-					maneuver = rospy.get_param("~turn_left")
-				elif self.job == "right":
-					maneuver = rospy.get_param("~turn_right")
-				maneuver = rospy.get_param("~turn_forward")
+				if not self.job_done:
+					self.job = rospy.get_param("~job")
+					if self.job == "left":
+						maneuver = rospy.get_param("~turn_left")
+					elif self.job == "right":
+						maneuver = rospy.get_param("~turn_right")
+					maneuver = rospy.get_param("~turn_forward")
+				else:
+					return
 
 			# execute the maneuver: (which is a lsit of durations and twist2d messages)
 			for command in maneuver:

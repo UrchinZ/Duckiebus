@@ -41,6 +41,18 @@ class lane_controll_node:
 		self.straightening = False
 		self.last_input_pose = None
 		self.last_turn_time = 0.0
+		if not self.input_mode: #bus mode or taxi mode
+			self.job = rospy.get_param("~job")
+			self.job_done = rospy.get_param("~job_done")
+
+		#periodically calls to update parameter
+		rospy.Timer(rospy.Duration.from_sec(1.0), self.update_param)
+
+	def update_param(self):
+		self.input_mode = rospy.get_param("~input_mode")
+		if not self.input_mode: #bus mode or taxi mode
+			self.job = rospy.get_param("~job")
+			self.job_done = rospy.get_param("~job_done")
 
 
 	def recieve_stop_line(self, msg):
@@ -98,8 +110,12 @@ class lane_controll_node:
 					print "incorrect command"
 					self.in_turn = False
 					return
-			else:
-				print "need to subscribe"
+			else: #bus or taxi mode
+				self.job = rospy.get_param("~job")
+				if self.job == "left":
+					maneuver = rospy.get_param("~turn_left")
+				elif self.job == "right":
+					maneuver = rospy.get_param("~turn_right")
 				maneuver = rospy.get_param("~turn_forward")
 
 			# execute the maneuver: (which is a lsit of durations and twist2d messages)
@@ -117,7 +133,10 @@ class lane_controll_node:
 
 		# stop intercepting messages going to the in-lane driving controller
 		self.in_turn = False
-		
+		#job is done
+		if not self.input_mode: 
+			rospy.set_param("~job_done", True)
+
 	# intercept lane pose messages, copy them, and send them to the in-lane controller.
 	def recieve_pose(self, pose):
 		self.last_input_pose = pose

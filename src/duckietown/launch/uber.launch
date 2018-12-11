@@ -33,6 +33,8 @@
 		<remap from="~twist2d_out" to="dagu_car/vel_cmd"/>
 		<rosparam file="$(find intersection_control)/config/maneuvers.yaml" />
         <param name="input_mode" type="bool" value="false"/>
+        <param name="job" value="forward"/>
+        <param name="job_done" type="bool" value="true"/>
     </node>
 
 	<!-- uber node -->

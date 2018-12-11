@@ -100,7 +100,7 @@ class lane_controll_node:
 					return
 			else:
 				print "need to subscribe"
-				command = rospy.get_param("~turn_forward")
+				maneuver = rospy.get_param("~turn_forward")
 
 			# execute the maneuver: (which is a lsit of durations and twist2d messages)
 			for command in maneuver:

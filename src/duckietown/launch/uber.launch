@@ -3,16 +3,11 @@
     <arg name="veh" default="pi" doc="Name of vehicle."/>
 	
 	<!-- supervisor node -->
-	<node ns="$(arg veh)"  name="supervisor_node" pkg="intersection_control" type="supervisor_node.py" output="screen" required="true">
-        <remap from="~lane_pose_in" to="lane_filter_node/lane_pose"/>
-        <remap from="~lane_pose_out" to="supervisor/lane_pose"/>
-		<remap from="~stop_line_in" to="stop_line_filter/at_stop_line"/>
-		<remap from="~twist2d_in" to="supervisor/twist2d_in"/>
-		<remap from="~twist2d_out" to="dagu_car/vel_cmd"/>
-		<rosparam file="$(find intersection_control)/config/maneuvers.yaml" />
+	<include file="$(find duckietown)/launch/stop_line_control.launch">
+        <arg name="veh" value="$(arg veh)"/>
         <param name="input_mode" type="bool" value="true"/>
-    </node>
-
+    </include>
+    
 	<!-- uber node -->
 	<node ns="$(arg veh)"  name="uber_node" pkg="uber" type="uber.py" output="screen" required="true">
 		<rosparam file="$(find uber)/config/town.yaml" />

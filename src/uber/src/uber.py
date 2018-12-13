@@ -17,7 +17,8 @@ class Uber:
 			self.start == None
 			self.end == None
 		rospy.loginfo("[Start] %s, [End] %s, [Mode] %s Initialized ",self.start, self.end,self.mode)
-
+		self.run()
+		
 	#set all visit status to a certain value
 	def all_nodes_visit(self,value):
 		for k in self.graph.keys():
@@ -79,7 +80,6 @@ class Uber:
 if __name__ == "__main__":
 	try:
 		rospy.init_node("uber", anonymous=False)
-        u = Uber()
-		u.run()
+        Uber()
     except rospy.ROSInterruptException:
         pass

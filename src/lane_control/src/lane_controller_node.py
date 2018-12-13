@@ -40,7 +40,7 @@ class lane_controller(object):
     def setGains(self):
         v_bar = 0.25
         k_theta = -1.9 #-1.9
-        k_d = - 3.5#(k_theta ** 2) / ( 5.5 * v_bar)
+        k_d = - 2.5#(k_theta ** 2) / ( 5.5 * v_bar)
         theta_thres = math.pi / 2 #I don't think this variable is used
         d_thres = math.fabs(k_theta / k_d) * theta_thres
         d_offset = -.15 #-0.05

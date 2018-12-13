@@ -42,7 +42,6 @@
 		<rosparam file="$(find uber)/config/town.yaml" />
 		<param name="start" type="str" value="2" />
 		<param name="end" type="str" value = "15"/>
-        <param name="uber_queue" type="bool" value="false"/>
 		<param name="mode" type="str" value="taxi"/>
     </node>
 

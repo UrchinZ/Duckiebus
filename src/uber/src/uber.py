@@ -58,7 +58,7 @@ class Uber:
 		print(self.end)
 		town_map = Graph()
 		for k in self.graph.keys():
-			if k == "start" or k == "end" or k == "mode":
+			if not str.isdigit(k):
 				continue
 			node = Node(k,self.graph[k])
 			town_map.add_node(node)

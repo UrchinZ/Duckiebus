@@ -67,8 +67,10 @@ class Uber:
 		for direct in directions:
 			rospy.set_param('/pi/supervisor_node/job', direct)
 			rospy.set_param('/pi/supervisor_node/job_done', False)
+			print("turn " + direct)
 			while not rospy.get_param('/pi/supervisor_node/job_done'):
 				pass #waiting for supervisor to get job done
+			print("job done")
 		
 	def run(self):
 		if self.mode == "taxi":
@@ -80,4 +82,4 @@ class Uber:
 if __name__ == "__main__":
 	rospy.init_node("uber", anonymous=False)
 	Uber()
-    
+    rospy.spin()

@@ -43,6 +43,7 @@
 		<param name="start" type="str" value="2" />
 		<param name="end" type="str" value = "15"/>
 		<param name="mode" type="str" value="taxi"/>
+        <param name="query" type="bool" value="true"/>
     </node>
 
 </launch>

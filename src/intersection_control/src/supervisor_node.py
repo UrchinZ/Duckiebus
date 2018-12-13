@@ -117,7 +117,10 @@ class lane_controll_node:
 						maneuver = rospy.get_param("~turn_left")
 					elif self.job == "right":
 						maneuver = rospy.get_param("~turn_right")
-					maneuver = rospy.get_param("~turn_forward")
+					elif self.job == "forward":
+						maneuver = rospy.get_param("~turn_forward")
+					else:
+						return
 				else:
 					return
 

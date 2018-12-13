@@ -61,7 +61,13 @@ class Uber:
 			town_map.add_node(node)
 		town_map.dijkstra(self.start)
 		path =town_map.shortest_path(self.start,self.end) 
-		print(town_map.direction(path))
+		directions = town_map.direction(path)
+		print(directions)
+		for direct in directions:
+			rospy.set_param('/pi/supervisor_node/job', direct)
+			rospy.set_param('/pi/supervisor_node/job_done', False)
+			while not rospy.get_param('/pi/supervisor_node/job_done'):
+				pass #waiting for supervisor to get job done
 		
 	def run(self):
 		if self.mode == "taxi":

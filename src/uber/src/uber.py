@@ -77,7 +77,9 @@ class Uber:
 
 
 if __name__ == "__main__":
-	rospy.init_node("uber", anonymous=False)
-	u = Uber()
-	u.run()
-	rospy.spin()
+	try:
+		rospy.init_node("uber", anonymous=False)
+        u = Uber()
+		u.run()
+    except rospy.ROSInterruptException:
+        pass

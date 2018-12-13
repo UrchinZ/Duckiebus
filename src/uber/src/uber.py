@@ -73,7 +73,7 @@ class Uber:
 			while not rospy.get_param('/pi/supervisor_node/job_done'):
 				pass #waiting for supervisor to get job done
 			print("job done")
-			time.sleep(5) #add delay between each job
+			time.sleep(3) #add delay between each job
 		
 	def run(self):
 		if self.mode == "taxi":

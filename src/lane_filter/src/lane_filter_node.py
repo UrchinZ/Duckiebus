@@ -60,7 +60,7 @@ class LaneFilterNode(object):
         self.pub_belief_img = rospy.Publisher("~belief_img", Image, queue_size=1)
         self.pub_entropy    = rospy.Publisher("~entropy",Float32, queue_size=1)
         #self.pub_prop_img = rospy.Publisher("~prop_img", Image, queue_size=1)
-        self.pub_in_lane    = rospy.Publisher("~in_lane",BoolStamped, queue_size=1)
+        self.pub_in_lane = rospy.Publisher("~in_lane",BoolStamped, queue_size=1)
         self.sub_switch = rospy.Subscriber("~switch", BoolStamped, self.cbSwitch, queue_size=1)
 
         self.timer = rospy.Timer(rospy.Duration.from_sec(1.0), self.updateParams)

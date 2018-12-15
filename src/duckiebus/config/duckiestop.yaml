@@ -1,0 +1,4 @@
+"route": ["13","1","5","7","14","8","2","4","11","16","9","3","12","10","6","15"]
+"direction": ["forward","forward","left","right","forward","forward","right","left","right","right","forward","right","right","forward","left","right"]
+#-1 means right on the spot
+"stops": [["13",4],["13",-1],["1",-1],["4",1]] 

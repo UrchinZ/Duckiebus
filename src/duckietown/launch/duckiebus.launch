@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<launch>
+    <arg name="veh" default="pi" doc="Name of vehicle."/>
+
+	<!-- duckiebus node -->
+	<node ns="$(arg veh)"  name="duckiebus" pkg="duckiebus" type="bus.py" output="screen" required="true">
+		<rosparam file="$(find duckiebus)/config/duckiestop.yaml" />
+    </node>
+
+</launch>

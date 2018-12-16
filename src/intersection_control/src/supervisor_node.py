@@ -147,14 +147,19 @@ class lane_controll_node:
 	def recieve_pose(self, pose):
 		self.last_input_pose = pose
 		# intercept data going to the in-lane driving controller if we're in a turn right now
-		if not self.in_turn and not self.job_done:
-			self.controller_pub.publish(pose)
-		if not self.in_turn and self.job_done:
-			stop_msg = Twist2DStamped()
-			stop_msg.v = 0
-			stop_msg.omega = 0
-			self.motor_pub.publish(stop_msg)
-		
+		if self.input_mode: #keyboard input mode
+			if not self.in_turn:
+				self.controller_pub.publish(pose)
+		else: #bus or taxi mode
+			if not self.in_turn and not self.job_done:
+				self.controller_pub.publish(pose)
+			elif not self.in_turn and self.job_done:
+				stop_msg = Twist2DStamped()
+				stop_msg.v = 0
+				stop_msg.omega = 0
+				self.motor_pub.publish(stop_msg)
+					
+			
 	# forward twist messages from the in-lane controller to the kinematics node
 	def recieveTwist(self, msg):
 		if not self.in_turn:

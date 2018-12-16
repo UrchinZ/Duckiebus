@@ -31,7 +31,7 @@ class Duckiebus:
 				for d in self.duckiestops:
 					if d[0] == stop:
 						bus_stop.append(int(d[1]))
-				sort(bus_stop)
+				bus_stop.sort()
 				timer = 0;
 				#start to run
 				rospy.set_param('/pi/supervisor_node/job', sequence[counter])

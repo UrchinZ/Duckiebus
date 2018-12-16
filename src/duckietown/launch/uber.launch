@@ -40,8 +40,8 @@
 	<!-- uber node -->
 	<node ns="$(arg veh)"  name="uber_node" pkg="uber" type="uber.py" output="screen" required="true">
 		<rosparam file="$(find uber)/config/town.yaml" />
-		<param name="start" type="str" value="2" />
-		<param name="end" type="str" value = "15"/>
+		<param name="start" type="str" value="9" />
+		<param name="end" type="str" value = "1"/>
 		<param name="mode" type="str" value="taxi"/>
     </node>
 

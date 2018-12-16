@@ -42,7 +42,7 @@ class lane_controll_node:
 		self.last_input_pose = None
 		self.last_turn_time = 0.0
 		if not self.input_mode: #bus mode or taxi mode
-			self.mode = rospy.get_param("mode")
+			self.mode = rospy.get_param("~mode")
 			self.job = rospy.get_param("~job")
 			self.job_done = rospy.get_param("~job_done")
 

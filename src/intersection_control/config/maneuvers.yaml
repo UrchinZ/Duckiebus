@@ -1,6 +1,6 @@
 # format: [time, velocity, angular vel]
 turn_left: 
-  - [0.8, 0.38, 0]
+  - [0.6, 0.38, 0]
   - [.8, 0.38, 1.7]
   - [0.3, 0.35, 0.0]
 turn_right:

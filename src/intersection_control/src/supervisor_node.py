@@ -64,7 +64,7 @@ class lane_controll_node:
 			stop_msg = Twist2DStamped()
 			stop_msg.v = 0
 			if(self.last_input_pose):
-				stop_msg.omega = -1.3*self.last_input_pose.phi
+				#stop_msg.omega = -1.3*self.last_input_pose.phi
 				self.motor_pub.publish(stop_msg)
 			stop_msg.omega = 0
 			self.motor_pub.publish(stop_msg)

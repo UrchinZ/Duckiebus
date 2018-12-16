@@ -42,6 +42,7 @@ class lane_controll_node:
 		self.last_input_pose = None
 		self.last_turn_time = 0.0
 		if not self.input_mode: #bus mode or taxi mode
+			self.mode = rospy.get_param("/pi/uber_node/mode")
 			self.job = rospy.get_param("~job")
 			self.job_done = rospy.get_param("~job_done")
 
@@ -151,7 +152,9 @@ class lane_controll_node:
 			if not self.in_turn:
 				self.controller_pub.publish(pose)
 		else: #bus or taxi mode
-			if not self.in_turn and not self.job_done:
+			if self.mode == "tax" and not self.in_turn:
+				self.controller_pub.publish(pose)
+			elif not self.in_turn and not self.job_done:
 				self.controller_pub.publish(pose)
 			elif not self.in_turn and self.job_done:
 				stop_msg = Twist2DStamped()

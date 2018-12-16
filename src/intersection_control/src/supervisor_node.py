@@ -152,7 +152,7 @@ class lane_controll_node:
 			if not self.in_turn:
 				self.controller_pub.publish(pose)
 		else: #bus or taxi mode
-			if self.mode == "tax" and not self.in_turn:
+			if self.mode == "taxi" and not self.in_turn:
 				self.controller_pub.publish(pose)
 			elif not self.in_turn and not self.job_done:
 				self.controller_pub.publish(pose)

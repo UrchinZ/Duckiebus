@@ -28,6 +28,9 @@ To view relationship between nodes: run rqt_graph
     * script/**drive_straight_test.py** - run this to test the wheel calibration
     * src/**kinematics_node.py** - converts car velocities to wheel speeds
     * src/**wheels_driver_node.py** - sets wheel speeds based on received commands
+* duckiebus/
+    * config/**duckiestop.yaml** - duckie stop information
+    * src/**bus.py** - drives car in a fiexed routine defined in duckiestop.yaml
 * duckietown/
     * config/dagu_car/kinematics/**pi.yaml** - wheel calibration
     * config/ground_projection/**pi.yaml** - extrinsic camera calibration
@@ -39,7 +42,7 @@ To view relationship between nodes: run rqt_graph
     * scripts/**test_projection_auto.py** - run this to test extrinsic camera calibration
 * intersection_control/
     * config/**maneuvers.yaml** - open-loop turn descriptions
-    * config/**map.yaml** - graph representation of roads
+    * 
     * src/**stop_line_filter.py** - publishes stop-line readings
     * src/**supervisor_node.py** - manages intersections (and control mode switching)
 * keyboard_control/
@@ -48,6 +51,9 @@ To view relationship between nodes: run rqt_graph
     * src/**lane_controller_node.py** - publishes car velocities based on lane pose estimates
 * lane_filter/
     * src/**lane_filter_node.py** - publishes lane pose estimates
+* line_detector/
+    * config/**params.yaml** - parameters used for color and edge detection
+    * src/**line_detector_node.py** - publishes line sesgment information
 * localization/
     * config/**landmarks.yaml** - AR tag IDs and locations
     * src/**localization_node.py** - estimates car pose based on AR tags and odometry (lab 10)
@@ -55,9 +61,18 @@ To view relationship between nodes: run rqt_graph
     * launch/**camera.launch** - starts the camera nodes and remaps topics
     * src/**cam_info_node.py** - publishes camera calibration info each time an image is received
     * src/**camera_node.py** - publishes compressed camera images
+* uber/
+    * config/**town.yaml** - Linked list with intersection as nodes. Record of directions and road segment length.
+    * src/**graph.py** - graph class that proceses town information and provide dijkstra shortest path computation.
+    * src/**uber.py** - drives car from start position to end goal.
 
 ### Environment ###
-
 * Raspberry Pi 3, Ubuntu Mate 14.04, Python 2.7.12, OpenCV 2.4.9, ROS Kinetic
+
+### Future work ###
+* Link ar_tags node to duckiebus so duckiebus stops at tag location
+* Design better scheme for turning
+* Redesign lane_controller
+* Design color calibration procedure to for proper line_detector params under various lighting.
 
 Team 22: Connor McGowan, Judy Zhang

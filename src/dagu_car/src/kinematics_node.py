@@ -36,8 +36,8 @@ class KinematicsNode(object):
         self.veh_name = self.node_name.split("/")[1]
 
         # Default parameters
-        self.gain = 1.35
-        self.trim = -.065
+        self.gain = 1.0
+        self.trim = 0.0
         self.baseline = 0.1 # Distance between wheels (m)
         self.radius = 0.0318 # Wheel radius (m)
         self.k = 27.0
